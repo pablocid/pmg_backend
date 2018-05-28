@@ -2,7 +2,7 @@
   "name": "pmg-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "devo": "concurrently --kill-others \"tsc -w\" \"nodemon ./bin/www --config conf.nodemon.json\" \"npm run browsersync\" ",
     "dev": "concurrently --kill-others \"tsc -w\" \"NODE_ENV=development nodemon ./bin/www --config conf.nodemon.json\" ",

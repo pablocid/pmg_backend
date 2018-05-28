@@ -1,1 +1,1 @@
-web: tsc -w && node ./bin/www
+node ./bin/www
