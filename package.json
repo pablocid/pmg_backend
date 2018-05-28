@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "engines": {
-    "node": "10.0.0"
+    "node": "8.9.0"
   },
   "author": "",
   "license": "ISC",
@@ -71,11 +71,12 @@
     "@types/passport-local": "^1.0.30",
     "@types/q": "0.0.32",
     "chai": "^3.5.0",
-    "concurrently": "^3.3.0",
+    "concurrently": "^3.5.1",
     "jshint": "^2.9.4",
     "mocha": "^3.2.0",
     "mocha-typescript": "^1.0.21",
     "nodemon": "^1.11.0",
+    "tsc": "^1.20150623.0",
     "typedoc": "^0.5.7",
     "typescript": "^2.1.6"
   }
